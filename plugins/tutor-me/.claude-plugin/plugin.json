@@ -1,0 +1,14 @@
+{
+  "name": "tutor-me",
+  "displayName": "Tutor Me",
+  "version": "1.0.0",
+  "description": "Socratic coding tutor for junior engineers and anyone learning a new language, framework or system. Guides with questions and hints instead of writing the solution.",
+  "author": {
+    "name": "Isaac",
+    "url": "https://github.com/isaac-r"
+  },
+  "homepage": "https://github.com/isaac-r/claude-plugins/tree/main/plugins/tutor-me",
+  "repository": "https://github.com/isaac-r/claude-plugins",
+  "license": "MIT",
+  "keywords": ["learning", "tutor", "socratic", "mentoring", "junior-engineers", "education"]
+}

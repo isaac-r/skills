@@ -1,0 +1,15 @@
+{
+  "name": "isaac-r-plugins",
+  "description": "Claude Code plugins and skills by isaac-r",
+  "owner": {
+    "name": "Isaac",
+    "url": "https://github.com/isaac-r"
+  },
+  "plugins": [
+    {
+      "name": "tutor-me",
+      "source": "./plugins/tutor-me",
+      "description": "Socratic coding tutor that guides you to the answer instead of giving it to you"
+    }
+  ]
+}
