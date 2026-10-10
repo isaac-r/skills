@@ -19,14 +19,14 @@ Add the marketplace, then install a plugin by name.
 From your shell:
 
 ```bash
-claude plugin marketplace add isaac-r/claude-plugins
+claude plugin marketplace add isaac-r/skills
 claude plugin install tutor-me@isaac-r-plugins
 ```
 
 Or from inside a Claude Code session:
 
 ```
-/plugin marketplace add isaac-r/claude-plugins
+/plugin marketplace add isaac-r/skills
 /plugin install tutor-me@isaac-r-plugins
 ```
 
@@ -42,7 +42,7 @@ To have everyone who works in a repository offered these plugins, add this to th
     "isaac-r-plugins": {
       "source": {
         "source": "github",
-        "repo": "isaac-r/claude-plugins"
+        "repo": "isaac-r/skills"
       }
     }
   },
@@ -82,7 +82,7 @@ claude plugin marketplace remove isaac-r-plugins
 ## Repository layout
 
 ```
-claude-plugins/
+skills/
 ├── .claude-plugin/
 │   └── marketplace.json        # lists every plugin in this repo
 ├── plugins/
